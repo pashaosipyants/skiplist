@@ -86,6 +86,7 @@ func (e *Element) String() string { return fmt.Sprintf("%v:%v", e.key, e.Value) 
 //
 func New() *T {
 	nu := &T{}
+	_ = nu
 
 	// Seed a private random number generator for reproducibility.
 
